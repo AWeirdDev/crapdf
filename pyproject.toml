@@ -4,6 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "crapdf"
+description = "Extract text from a PDF file."
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Rust",
@@ -11,10 +12,15 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/AWeirdDev/crapdf"
+
 [project.optional-dependencies]
 tests = [
     "pytest",
 ]
+
 [tool.maturin]
 python-source = "python"
 features = ["pyo3/extension-module"]
