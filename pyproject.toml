@@ -14,7 +14,7 @@ classifiers = [
 dynamic = ["version"]
 
 [project.urls]
-repository = "https://github.com/AWeirdDev/crapdf"
+"Repository" = "https://github.com/AWeirdDev/crapdf"
 
 [project.optional-dependencies]
 tests = [

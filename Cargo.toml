@@ -1,6 +1,6 @@
 [package]
 name = "crapdf"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -10,5 +10,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 anyhow = "1.0.91"
-lopdf = "0.34.0"
+lopdf = { git = "https://github.com/J-F-Liu/lopdf" }
 pyo3 = { version = "0.22.0", features = ["anyhow"] }
